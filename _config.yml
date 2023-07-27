@@ -54,6 +54,10 @@ defaults: # The `defaults` key holds an array of scope/values pairs that define 
       type: "guide-pages"
     values:
       layout: "guide-pages"
+  - scope:
+      path: "CONTRIBUTING.md"
+    values:
+      permalink: "CONTRIBUTING.html"
 
 plugins:
   - jekyll-sitemap
